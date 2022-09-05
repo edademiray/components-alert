@@ -2,6 +2,7 @@
 
  basics components with javascript
 
+## Live version: https://components-in-js.netlify.app/
 
 
 ## Components
