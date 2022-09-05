@@ -1,0 +1,72 @@
+.pagination-main-container {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 52%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid white;
+	font-family: monospace;
+}
+
+.pagination-page {
+	position: relative;
+	width: 500px;
+	height: 400px;
+	font-size: 48px;
+	padding-top: 40px;
+	text-align: center;
+	color: white;
+	box-sizing: border-box;
+}
+
+.pagination-bar {
+	margin-bottom: 15px;
+	max-width: 500px;
+	display: flex;
+	height: 100px;
+	flex-direction: row;
+	flex-shrink: 0;
+	justify-content: center;
+}
+
+.control-group-one {
+	display: flex;
+	flex-direction: row;
+	flex-shrink: 0;
+	padding: 35px 5px;
+	border: 1px solid white;
+}
+
+.control-index-group {
+	display: flex;
+	flex-direction: row;
+	flex-shrink: 0;
+	padding: 35px 10px;
+	border: 1px solid white;
+}
+
+.control-group-two {
+	display: flex;
+	flex-direction: row;
+	flex-shrink: 0;
+	padding: 35px 5px;
+	border: 1px solid white;
+}
+
+.pagination-index-button {
+	height: 30px;
+	width: 30px;
+	border: 1px solid white;
+	line-height: 30px;
+	text-align: center;
+}
+
+.control-button {
+	height: 30px;
+	width: 30px;
+
+	border: 1px solid white;
+	line-height: 30px;
+	text-align: center;
+}
